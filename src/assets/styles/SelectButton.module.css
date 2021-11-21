@@ -1,0 +1,15 @@
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 38px;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  padding: 0 30px;
+}
+
+.active {
+  color: #fff;
+  background-color: #EB3300;
+}
