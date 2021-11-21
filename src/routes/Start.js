@@ -4,17 +4,17 @@ import styles from '../assets/styles/Home.module.css';
 
 function Start() {
   return (
-    <div>
-      <div>
+    <div className={styles.page}>
+      <div className={styles.container}>
         <Logo />
-        <blockquote>
-          <p>
+        <blockquote className={styles.description}>
+          <p className={styles.description}>
             “Perfume<br/>
             is the<br/>
             mirror of<br/>
             your soul.”
           </p>
-          <cite>
+          <cite className={styles.author}>
             — Frédéric Malle
           </cite>
           <p>당신에게 어울리는 향수를 찾을 수 있도록 알려주세요.</p>
