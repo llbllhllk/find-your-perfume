@@ -1,0 +1,35 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  height: 100vh;
+}
+
+.box {
+  text-align: center;
+  color: #fff;
+}
+
+.quotation {
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+  margin-bottom: 40px;
+  letter-spacing: 0.02em;
+}
+
+.author {
+  font-family: 'Playfair Display', serif;
+  display: block;
+  color: #EB3300;
+  margin-bottom: 40px;
+  font-style: italic;
+  font-size: 27px;
+}
+
+.description {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 300;
+  margin-bottom: 40px;
+}

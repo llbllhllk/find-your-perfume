@@ -7,8 +7,8 @@ function Start() {
     <div className={styles.page}>
       <div className={styles.container}>
         <Logo />
-        <blockquote className={styles.description}>
-          <p className={styles.description}>
+        <blockquote className={styles.box}>
+          <p className={styles.quotation}>
             “Perfume<br/>
             is the<br/>
             mirror of<br/>
@@ -17,7 +17,7 @@ function Start() {
           <cite className={styles.author}>
             — Frédéric Malle
           </cite>
-          <p>당신에게 어울리는 향수를 찾을 수 있도록 알려주세요.</p>
+          <p className={styles.description}>당신에게 어울리는 향수를 찾을 수 있도록 알려주세요.</p>
         </blockquote>
         <SelectButton />
       </div>
