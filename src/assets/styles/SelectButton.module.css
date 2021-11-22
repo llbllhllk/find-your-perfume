@@ -10,12 +10,7 @@
   cursor: pointer;
   border-radius: 6px;
   padding: 0 30px;
-  margin-bottom: 8px;
   transition: all ease 0.3s;
-}
-
-.btn:last-child {
-  margin-bottom: 0;
 }
 
 .btn:hover {

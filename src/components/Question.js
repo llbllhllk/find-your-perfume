@@ -1,10 +1,10 @@
-import styles from '../assets/styles/Step.module.css';
+import styles from '../assets/styles/Question.module.css';
 
-function Step ({ step, gauge }) {
+function Question ({ step, gauge }) {
   return (
     <>
       <strong className={styles.step}>
-          STEP {step}/3
+          STEP {step} / 3
         </strong>
         <div className={styles.gauge}>
           <span
@@ -21,4 +21,4 @@ function Step ({ step, gauge }) {
   );
 }
 
-export default Step;
+export default Question;
