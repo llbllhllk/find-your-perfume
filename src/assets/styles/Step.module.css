@@ -1,0 +1,27 @@
+.title {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.step {
+  display: block;
+  font-size: 24px;
+  font-weight: 700;
+  color: #EB3300;
+  margin-bottom: 20px;
+}
+
+.gauge {
+  margin: 0 auto;
+  width: 500px;
+  height: 1px;
+  background-color: #EB3300;
+  margin-bottom: 30px;
+}
+
+.current_gauge {
+  display: block;
+  height: 1px;
+  background-color: #fff;
+}

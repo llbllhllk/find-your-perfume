@@ -1,9 +1,11 @@
 import styles from '../assets/styles/SelectButton.module.css';
 
 
-function SelectButton() {
+function SelectButton({ text }) {
   return (
-    <button className={[styles.btn, styles.active].join(' ')}>START VIRTUAL CONSULTATION</button>
+    <button 
+      className={[styles.btn, styles.active].join(' ')}
+    >{text}</button>
   );
 }
 

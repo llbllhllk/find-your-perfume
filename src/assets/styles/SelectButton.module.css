@@ -1,4 +1,5 @@
 .btn {
+  width: 300px;
   font-weight: 300;
   margin: 0 auto;
   display: flex;
@@ -9,9 +10,16 @@
   cursor: pointer;
   border-radius: 6px;
   padding: 0 30px;
+  margin-bottom: 8px;
+  transition: all ease 0.3s;
 }
 
-.active {
+.btn:last-child {
+  margin-bottom: 0;
+}
+
+.btn:hover {
   color: #fff;
   background-color: #EB3300;
 }
+
