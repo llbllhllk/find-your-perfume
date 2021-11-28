@@ -1,22 +1,32 @@
 import SelectButton from '../components/SelectButton';
 import styles from '../assets/styles/StepOne.module.css';
 
-function StepOne() {
+function StepOne({ nextStep }) {
   return (
-    <ul>
+    <ul className={styles.ul}>
         <li className={styles.list}>
-          <SelectButton 
-            text={'SPRING'} 
+          <SelectButton
+            text={'SPRING'}
+            nextStep={nextStep}
           />
         </li>
         <li className={styles.list}>
-          <SelectButton text={'SUMMER'} />
+          <SelectButton 
+            text={'SUMMER'} 
+            nextStep={nextStep}
+          />
         </li>
         <li className={styles.list}>
-          <SelectButton text={'AUTUMN'} />
+          <SelectButton 
+            text={'AUTUMN'} 
+            nextStep={nextStep}
+          />
         </li>
         <li className={styles.list}>
-          <SelectButton text={'WINTER'} />
+          <SelectButton 
+            text={'WINTER'} 
+            nextStep={nextStep}  
+          />
         </li>
       </ul>
   );
