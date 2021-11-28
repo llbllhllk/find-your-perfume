@@ -1,9 +1,11 @@
+import styles from '../assets/styles/PrevNextBtn.module.css';
+
 function PrevNextBtn () {
   return ( 
-    <>
-      <button>BACK</button>      
-      <button>NEXT</button>      
-    </>
+    <div className={styles.btnContainer}>
+      <button className={styles.btn}>BACK</button>      
+      <button className={styles.btn}>NEXT</button>      
+    </div>
   );
 }
 

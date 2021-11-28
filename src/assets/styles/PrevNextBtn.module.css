@@ -1,0 +1,21 @@
+.btnContainer {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  letter-spacing: 0.1em;
+  font-family: 'Noto Sans KR', sans-serif;
+  padding: 10px 22px;
+  background-color: #000;
+  border: 1px solid #fff;
+  color: #fff;
+  cursor: pointer;
+  transition: all ease 0.3s;
+}
+
+.btn:hover {
+  color: #000;
+  background-color: #fff;
+}
