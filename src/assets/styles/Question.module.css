@@ -21,6 +21,7 @@
 }
 
 .current_gauge {
+  transition: width ease 0.3s;
   display: block;
   height: 1px;
   background-color: #fff;

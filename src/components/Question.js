@@ -1,6 +1,6 @@
 import styles from '../assets/styles/Question.module.css';
 
-function Question ({ step, gauge }) {
+function Question ({ step, gauge, question }) {
   return (
     <>
       <strong className={styles.step}>
@@ -10,12 +10,12 @@ function Question ({ step, gauge }) {
           <span
             className={styles.current_gauge}
             style={{"width": `${gauge}px` }}
-            aria-label="step1 gage"
+            aria-label={`${step} of step gagebar`}
           >
-        </span>
+          </span>
         </div>
         <h1 className={styles.title}>
-          선호하는 계절을 선택하세요.
+          {question}
         </h1>
     </>
   );

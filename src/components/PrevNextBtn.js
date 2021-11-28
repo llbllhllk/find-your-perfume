@@ -1,10 +1,20 @@
 import styles from '../assets/styles/PrevNextBtn.module.css';
 
-function PrevNextBtn () {
+function PrevNextBtn ({ prevStep, nextStep }) {
   return ( 
     <div className={styles.btnContainer}>
-      <button className={styles.btn}>BACK</button>      
-      <button className={styles.btn}>NEXT</button>      
+      <button 
+        className={styles.btn}
+        onClick={prevStep}
+      >
+        BACK
+      </button>      
+      <button 
+        className={styles.btn}
+        onClick={nextStep}
+      >
+        NEXT
+      </button>      
     </div>
   );
 }

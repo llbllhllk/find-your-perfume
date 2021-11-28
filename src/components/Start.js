@@ -1,8 +1,8 @@
-import Logo from '../components/Logo.js';
-import SelectButton from '../components/SelectButton';
+import Logo from './Logo.js';
+import SelectButton from './SelectButton.js';
 import styles from '../assets/styles/Start.module.css';
 
-function Start() {
+function Start({ nextStep }) {
   return (
     <>
       <Logo />
@@ -18,7 +18,10 @@ function Start() {
         </cite>
         <p className={styles.description}>당신에게 어울리는 향수를 찾을 수 있도록 알려주세요.</p>
       </blockquote>
-      <SelectButton text={'START VIRTUAL CONSULTATION'} />
+      <SelectButton 
+        text={'START VIRTUAL CONSULTATION'} 
+        nextStep={nextStep}
+      />
     </>
   );
 }
