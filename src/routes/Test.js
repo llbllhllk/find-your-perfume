@@ -1,7 +1,8 @@
 import Question from '../components/Question.js';
 import Start from '../components/Start.js';
 import StepOne from '../components/StepOne.js';
-import StepTwo from '../components/StepTwo';
+import StepTwo from '../components/StepTwo.js';
+import StepThree from '../components/StepThree.js';
 import PrevNextBtn from '../components/PrevNextBtn.js';
 import { useState } from 'react';
 
@@ -32,6 +33,12 @@ function Test() {
           gauge={(500 / 3) * 2}
           question={"향수의 목적을 선택하세요."}
       /> : null}
+      {step === 3 
+      ? <Question 
+          step={step}
+          gauge={(500 / 3) * 3}
+          question={"원하시는 향의 노트들을 선택하세요."}
+      /> : null}
 
       {/* Step */}
       {step === 0 ? <Start nextStep={nextStep} /> : null}
@@ -42,6 +49,11 @@ function Test() {
         /> : null}
       {step === 2 
       ? <StepTwo 
+          prevStep={prevStep} 
+          nextStep={nextStep}
+        /> : null}
+      {step === 3 
+      ? <StepThree 
           prevStep={prevStep} 
           nextStep={nextStep}
         /> : null}

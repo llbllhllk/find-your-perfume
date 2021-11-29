@@ -1,0 +1,21 @@
+.notes {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+
+.note {
+  cursor: pointer;
+}
+
+.note img {
+  padding: 3px;
+}
+
+.notes:last-child {
+  margin-bottom: 0;
+}
+
+.avtive {
+  background-color: #EB3300;
+}
