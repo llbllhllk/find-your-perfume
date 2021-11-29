@@ -16,13 +16,12 @@
   margin: 0 auto;
   width: 500px;
   height: 1px;
-  background-color: #EB3300;
+  background-color: #fff;
   margin-bottom: 30px;
 }
 
 .current_gauge {
-  transition: width ease 0.3s;
   display: block;
   height: 1px;
-  background-color: #fff;
+  background-color: #EB3300;
 }

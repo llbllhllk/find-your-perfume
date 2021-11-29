@@ -1,5 +1,5 @@
 import Logo from './Logo.js';
-import SelectButton from './SelectButton.js';
+import StartButton from './StartButton.js';
 import styles from '../assets/styles/Start.module.css';
 
 function Start({ nextStep }) {
@@ -18,7 +18,7 @@ function Start({ nextStep }) {
         </cite>
         <p className={styles.description}>당신에게 어울리는 향수를 찾을 수 있도록 알려주세요.</p>
       </blockquote>
-      <SelectButton 
+      <StartButton 
         text={'START VIRTUAL CONSULTATION'} 
         nextStep={nextStep}
       />
