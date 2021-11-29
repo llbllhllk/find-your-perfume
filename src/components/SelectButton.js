@@ -1,11 +1,10 @@
 import styles from '../assets/styles/SelectButton.module.css';
 
 
-function SelectButton({ text, nextStep }) {
+function SelectButton({ text }) {
   return (
     <button 
       className={[styles.btn, styles.active].join(' ')}
-      onClick={nextStep}
     >{text}</button>
   );
 }

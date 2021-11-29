@@ -43,20 +43,11 @@ function Test() {
       {/* Step */}
       {step === 0 ? <Start nextStep={nextStep} /> : null}
       {step === 1 
-      ? <StepOne 
-          prevStep={prevStep} 
-          nextStep={nextStep}
-        /> : null}
+      ? <StepOne /> : null}
       {step === 2 
-      ? <StepTwo 
-          prevStep={prevStep} 
-          nextStep={nextStep}
-        /> : null}
+      ? <StepTwo /> : null}
       {step === 3 
-      ? <StepThree 
-          prevStep={prevStep} 
-          nextStep={nextStep}
-        /> : null}
+      ? <StepThree /> : null}
 
       {/* PrevNextBtn */}
       {step >= 1 
